@@ -1,0 +1,7 @@
+C:\Users\Jamie\OneDrive\Projects\Github\AZ-204\WebApp1\bin\Release\net6.0\publish\WebApp1.exe
+C:\Users\Jamie\OneDrive\Projects\Github\AZ-204\WebApp1\bin\Release\net6.0\publish\appsettings.Development.json
+C:\Users\Jamie\OneDrive\Projects\Github\AZ-204\WebApp1\bin\Release\net6.0\publish\appsettings.json
+C:\Users\Jamie\OneDrive\Projects\Github\AZ-204\WebApp1\bin\Release\net6.0\publish\WebApp1.dll
+C:\Users\Jamie\OneDrive\Projects\Github\AZ-204\WebApp1\bin\Release\net6.0\publish\WebApp1.deps.json
+C:\Users\Jamie\OneDrive\Projects\Github\AZ-204\WebApp1\bin\Release\net6.0\publish\WebApp1.runtimeconfig.json
+C:\Users\Jamie\OneDrive\Projects\Github\AZ-204\WebApp1\bin\Release\net6.0\publish\WebApp1.pdb
