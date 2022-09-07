@@ -10,8 +10,15 @@ public class Settings
 
     public static Settings LoadSettings()
     {
+        //Load settings
         IConfiguration config = new ConfigurationBuilder()
-            
+            //appsettings.json is required
+            .AddJsonFile("appsettings.json", optional: false)
+            //appsettings.Development.json is optional
+            .AddJsonFile($"appsettings.Development.json", optional: true)
+            //user secrets are optional, values override both JSON files
+            //.AddUserSecrets<Program>()
+            .Build();
         
         return config.GetRequiredSection("Settings").Get<Settings>();
     }
