@@ -14,4 +14,10 @@
     <PackageReference Include="Microsoft.Graph" Version="4.39.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
