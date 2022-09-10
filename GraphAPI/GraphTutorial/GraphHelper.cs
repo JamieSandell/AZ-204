@@ -79,5 +79,39 @@ class GraphHelper
             // Sort by received time, newest first
             .OrderBy("ReceivedDateTime DESC")
             .GetAsync();
-    } 
+    }
+
+    public static async Task SendMailAsync(string subject, string body, string recipient)
+    {
+        if (_userClient is null)
+        {
+            throw new System.NullReferenceException("Graph has not been initialised for user auth");
+        }
+        // Create a new message
+        var message = new Message
+        {
+            Subject = subject,
+            Body = new ItemBody
+            {
+                Content = body,
+                ContentType = BodyType.Text
+            },
+            ToRecipients = new Recipient[]
+            {
+                new Recipient
+                {
+                    EmailAddress = new EmailAddress
+                    {
+                        Address = recipient
+                    }
+                }
+            }
+        };
+        // Send the message
+        await _userClient.Me
+            .SendMail(message)
+            .Request()
+            .PostAsync();
+    }
+
 }
