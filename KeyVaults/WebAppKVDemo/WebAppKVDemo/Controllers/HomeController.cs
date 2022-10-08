@@ -25,6 +25,7 @@ namespace WebAppKVDemo.Controllers
 
                 string secret = client.GetSecretAsync("secretColour", "f06aad4b58894fff9928586921fc3d42").Result.Value.Value;
                 ViewBag.secretColour = secret;
+                ViewBag.secretPerson = Configuration.GetSection("secretPerson").Value;
             }
             catch (Exception exception)
             {
