@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CadbM73hXFtc7uZKERCVr0t8ancMYwGOywVidf30gJsNojDp14lstQB40e7Z+mGsilwrDHr1poDP2kVZb23Iaw==",
+  "success": true,
+  "projectFilePath": "/home/jamie/Repos/AZ-204/auth/auth.csproj",
+  "expectedPackageFiles": [
+    "/home/jamie/.nuget/packages/microsoft.identity.client/4.54.1/microsoft.identity.client.4.54.1.nupkg.sha512",
+    "/home/jamie/.nuget/packages/microsoft.identitymodel.abstractions/6.22.0/microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512",
+    "/home/jamie/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.19/microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}
